@@ -1,0 +1,276 @@
+ .preco{
+      font-size: 30px;
+      padding: 30px;
+      margin-top: 50px;
+      text-align: center;
+    }
+    
+    .nav1 {
+      border: 0.1px solid brown;
+    }
+
+    body {
+      width: 100%;
+      background-color: LightYellow;
+    }
+
+    .titintro {
+      text-align: center;
+      font-size: 60px;
+      text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0, 0, 0, 0.15), 3px 3px 12px rgba(206, 89, 55, 0.6);
+      color: purple;
+    }
+
+    .imag {
+
+      margin-left: 50px;
+      border: 2px solid #282626;
+      border-radius: 45px;
+      position: absolute;
+      -webkit-box-shadow: 9px 7px 13px 10px rgba(177, 145, 105, 0.59);
+      box-shadow: 9px 7px 13px 10px rgba(177, 145, 105, 0.59);
+    }
+
+    .comidas {
+      -webkit-box-shadow: 9px 7px 13px 10px rgba(177, 145, 105, 0.59);
+      box-shadow: 9px 7px 13px 10px rgba(177, 145, 105, 0.59);
+      padding: 10px;
+      border-radius: 70px;
+      font-size: 21px;
+      background-color: bisque;
+      height: 850px;
+      width: 100px;
+    }
+
+    .intro {
+      text-align: center;
+      font-size: 30px;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: rgb(112, 28, 28);
+    }
+
+    .entrelinhas{
+      font-size: 13px;
+      text-align: center;
+      color: brown;
+    }
+
+    .info {
+      width: auto;
+      text-align: justify;
+      margin-right: 60px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 30px;
+    }
+
+    .titulo {
+      margin-right: 63px;
+      text-align: center;
+      margin-left: 6px;
+      color: rgb(141, 72, 15);
+      text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c, -9px 8px 9px rgba(206, 89, 55, 0.45);
+    }
+    #cart {
+    margin-top: 20px;
+  }
+
+  .carbuy{
+    font-size: 30px;
+    color: white;
+    background: #83CECB;
+background: -moz-linear-gradient(left, #83CECB 0%, #0390CD 100%, #C59237 100%);
+background: -webkit-linear-gradient(left, #83CECB 0%, #0390CD 100%, #C59237 100%);
+background: linear-gradient(to right, #83CECB 0%, #0390CD 100%, #C59237 100%);
+    padding: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    text-align: center;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+box-shadow: 5px 5px 15px 5px #000000;
+  }
+
+  .carbuy:hover{
+    transform: scale(1.06);
+
+  }
+  .msgpedido{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .agradecimento{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+  .x:hover{
+    transform: scale(1.03);
+  }
+
+  .garcom{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .imgbeb{
+    margin-left: 54px;
+  }
+  
+  .btn-add-to-cart {
+    padding: 10px;
+    background-color: #409d43;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-add-to-cart:hover{
+    transform: scale(1.1);
+  }
+  
+  a{
+    color: rgb(156, 105, 39);
+
+  }
+  .cart-item {
+    margin-bottom: 5px;
+  }
+  
+  .btn-remove-from-cart {
+    margin-left: 20px;
+    background-color: #f44336;
+  }
+
+    .comidas:hover {
+      transform: scale(1.06);
+    }
+
+    .imag:hover {
+      transform: scale(1.019);
+    }
+
+    .butend{
+        border-radius: 10px;
+        -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 0px 0px rgba(0,0,0,0.3); 
+        box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 0px 0px 0px 0px rgba(0,0,0,0.3);
+        background-color: rgb(232, 225, 191);
+        text-align: center;
+        color: white;
+        padding: 20px;
+        font-size: 30px;
+        width: 100px;
+    }
+    .butend:hover{
+        transform: scale(1.03);
+    }
+
+    .itens{
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    
+    }
+    .pedido{
+        border-radius: 30px;
+        padding: 30px;
+        margin-left: 550px;
+        margin-right: 550px;
+        -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 0px 0px rgba(0,0,0,0); 
+        box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 0px 0px 0px 0px rgba(0,0,0,0);
+        font-size: 90px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+        text-shadow: 2px 8px 6px rgba(0,0,0,0.2), 0px -5px 35px rgba(255,255,255,0.3), -40px -40px 0px rgba(206,89,55,0);
+        color: black;
+    }
+
+    .pedido:hover{
+        transform: scale(1.13) ;
+    }
+    .nav1 {
+  border: 0.1px solid brown;
+}
+
+    body{
+        width: 100%;
+  background-color: LightYellow;
+    }
+
+    .titpg{
+        text-align: center;
+        font-size: 60px;
+        color: rgb(171, 129, 50);
+        text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0,0,0,.1), 0 0 5px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.3), 0 3px 5px rgba(0,0,0,.2), 0 5px 10px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.2), 0 20px 20px rgba(0,0,0,.15), -6px 4px 14px rgba(206,89,55,0.2);      
+      }
+
+      .option{
+        
+        background-color: bisque;
+        padding: 9px;
+        border-radius: 18px;
+        margin-left: 40px;
+        margin-right: 40px;
+        -webkit-box-shadow: 6px 6px 25px 6px rgba(0,0,0,0.25); 
+        box-shadow: 6px 6px 25px 6px rgba(0,0,0,0.25);
+      }
+
+      .imgopt{
+        color: #aaa;
+      }
+
+      .descopt{
+        margin-top: 23px;
+        font-size: 27px;
+        text-align: justify;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .ingopt{
+        text-align: justify;
+        font-size: 27px;
+        margin-top: 23px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+
+      .option:hover{
+        transform: scale(1.03);
+      }
+
+      .valor{
+        font-size: 19px;
+        padding: 60px;
+        margin-left: 0px;
+        position: relative;
+        text-align: center;
+                              }
+
+    .boton{
+        background-color: greenyellow;
+    }
+
+    #cart {
+margin-top: 20px;
+}
+
+.btn-add-to-cart {
+padding: 10px;
+background-color: #409d43;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+.cart-item {
+margin-bottom: 5px;
+}
+
+.btn-remove-from-cart {
+margin-left: 20px;
+background-color: #f44336;
+}
+  
